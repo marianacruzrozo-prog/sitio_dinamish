@@ -328,36 +328,76 @@ nav a:hover::after {
     object-position: center 18%;
 }
 
+
+/* =================================
+   HERO - CELULAR
+================================= */
+
 @media (max-width: 768px) {
 
-    /* MENÚ / NAVBAR ARRIBA */
+    /* NAVBAR BLANCO */
     .nav,
     .navbar {
         background: #ffffff !important;
     }
 
+    /* HERO */
+    .hero {
+        height: auto;
+        min-height: 0;
+        max-height: none;
+        display: block;
+        overflow: visible;
+        background: #1E3C4D;
+    }
+
+    /* FOTO COMPLETA */
+    .hero-image {
+        position: relative;
+        inset: auto;
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: contain;
+        object-position: center;
+        margin-top: 80px;
+    }
+
+    /* TEXTO DEBAJO DE LA FOTO */
     @media (max-width: 768px) {
 
         .hero-content {
-            transform: translateY(20px);
+            position: relative !important;
+            top: 0 !important;
+            bottom: auto !important;
+            transform: none !important;
+
+            margin: 0 !important;
+            padding: 18px 20px 12px !important;
+
+            width: 100% !important;
+            box-sizing: border-box;
+
+            background: #1E3C4D;
+        }
+
+        .hero-content .small-title {
+            display: block;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        .hero-content h1 {
+            margin-top: 0 !important;
+        }
+
+        .hero-content p {
+            margin-top: 0 !important;
         }
 
     }
 
-    /* HERO */
-    .hero {
-        padding-top: 0;
-        background: #1E3C4D;
-    }
-
-    /* FOTO */
-    .hero-image {
-        width: 100%;
-        height: auto;
-        display: block;
-        margin-top: 80px;
-    }
-
+    /* CAPA SOBRE LA FOTO */
     .hero-overlay {
         display: none;
     }
