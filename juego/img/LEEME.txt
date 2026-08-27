@@ -1,0 +1,7 @@
+Coloca aqui tu archivo animado del pulpo con el nombre exacto:
+
+    pulpo.gif
+
+El proyecto lo detecta automaticamente (ver PULPO_SRC en script.js).
+Mientras no exista este archivo, se usa un pulpo de reemplazo dibujado en SVG
+para que puedas probar el proyecto completo desde ya.

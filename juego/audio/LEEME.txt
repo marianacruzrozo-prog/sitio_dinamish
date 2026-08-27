@@ -1,0 +1,8 @@
+Esta carpeta es opcional.
+
+Los efectos de sonido actuales se generan con la Web Audio API
+(sin archivos), ver el objeto SFX en script.js.
+
+Si prefieres usar archivos .mp3 reales, colocalos aqui
+(por ejemplo menu.mp3, juego1.mp3, juego2.mp3, juego3.mp3)
+y conectalos en script.js / juegos/*.js.

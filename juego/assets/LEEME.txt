@@ -1,0 +1,2 @@
+Carpeta libre para arte adicional (PNG/SVG) si decides reemplazar
+los graficos procedurales dibujados en canvas por ilustraciones propias.

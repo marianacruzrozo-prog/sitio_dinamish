@@ -1,0 +1,13 @@
+Coloca aquí tu archivo animado del pulpo con el nombre exacto:
+
+    pulpo.gif
+
+Recomendaciones:
+- Fondo transparente (GIF con transparencia o idealmente PNG animado/GIF con canal alfa).
+- Que el pulpo esté centrado y con algo de márgen alrededor (el juego lo escala pero no lo recorta).
+- Tamaño cuadrado o casi cuadrado se ve mejor (ej. 400x400 px).
+
+Si el archivo no existe todavía, el juego usa automáticamente un pulpo de repuesto
+dibujado en los colores de la marca (#EF7A22 y #1E3C4D) para que puedas probar
+todo mientras consigues el GIF definitivo. En cuanto reemplaces este archivo,
+recarga la página y se usará tu GIF en el menú y en los tres juegos.
