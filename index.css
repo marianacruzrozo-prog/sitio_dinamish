@@ -336,6 +336,14 @@ nav a:hover::after {
         background: #ffffff !important;
     }
 
+    @media (max-width: 768px) {
+
+        .hero-content {
+            transform: translateY(20px);
+        }
+
+    }
+
     /* HERO */
     .hero {
         padding-top: 0;
