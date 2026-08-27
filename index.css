@@ -329,23 +329,31 @@ nav a:hover::after {
 }
 
 @media (max-width: 768px) {
+
+    /* MENÚ / NAVBAR ARRIBA */
+    .nav,
+    .navbar {
+        background: #ffffff !important;
+    }
+
+    /* HERO */
+    .hero {
+        padding-top: 0;
+        background: #1E3C4D;
+    }
+
+    /* FOTO */
     .hero-image {
         width: 100%;
         height: auto;
         display: block;
-        object-fit: contain;
-        margin-top: 15px;
-        /* baja la imagen */
-    }
-
-    .hero {
-        background: #1E3C4D;
-        padding-bottom: 30px;
+        margin-top: 80px;
     }
 
     .hero-overlay {
         display: none;
     }
+
 }
 
 .hero-overlay {
