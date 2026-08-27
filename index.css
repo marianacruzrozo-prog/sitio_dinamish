@@ -328,6 +328,26 @@ nav a:hover::after {
     object-position: center 18%;
 }
 
+@media (max-width: 768px) {
+    .hero-image {
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: contain;
+        margin-top: 15px;
+        /* baja la imagen */
+    }
+
+    .hero {
+        background: #1E3C4D;
+        padding-bottom: 30px;
+    }
+
+    .hero-overlay {
+        display: none;
+    }
+}
+
 .hero-overlay {
     position: absolute;
     inset: 0;
